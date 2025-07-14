@@ -1,0 +1,81 @@
+        .container{
+            border: 2px solid salmon;
+            height: 150px;
+            width: 500px;
+            display: flex;
+            /* justify-content: flex-end; */
+            justify-content: flex-start;
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+        }
+        .container2{
+            border: 2px solid salmon;
+            height: 150px;
+            width: 500px;
+            display: flex;
+            justify-content: flex-end;
+            /* justify-content: flex-start; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+        }
+        .container3{
+            border: 2px solid salmon;
+            height: 150px;
+            width: 500px;
+            display: flex;
+            /* justify-content: flex-end; */
+            /* justify-content: flex-start; */
+            justify-content: center;
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+
+        }
+        .container4{
+            border: 2px solid salmon;
+            height: 150px;
+            width: 500px;
+            display: flex;
+            /* justify-content: flex-end; */
+            /* justify-content: flex-start; */
+            /* justify-content: center; */
+            justify-content: space-between;
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+
+        }
+        .container5{
+            border: 2px solid salmon;
+            height: 150px;
+            width: 500px;
+            display: flex;
+            /* justify-content: flex-end; */
+            /* justify-content: flex-start; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            justify-content: space-around;
+            /* justify-content: space-evenly; */
+
+        }
+        .container6{
+            border: 2px solid salmon;
+            height: 150px;
+            width: 500px;
+            display: flex;
+            /* justify-content: flex-end; */
+            /* justify-content: flex-start; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            justify-content: space-evenly;
+
+        }
+        .box{
+            border: 2px dashed tomato;
+            width: 50px;
+            height: 50px;
+        }

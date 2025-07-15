@@ -168,3 +168,36 @@ nav a{
     }  
 }
 
+.med-task1-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 5px solid tomato;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr) 2fr;
+    height: 400px;
+    gap: 20px;
+}
+.mt1c-left{
+    border-radius: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+
+}
+.mt1c-right{
+    border-radius: 10px;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+@media screen and (max-width: 576px) {
+    .med-task1-container{
+        grid-template-rows: repeat(1 ,1fr) 2fr;
+    }    
+}

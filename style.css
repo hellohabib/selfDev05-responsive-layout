@@ -106,3 +106,20 @@ nav a{
     height: 90vh;
     align-items: center;
 }
+.item{
+    border: 2px solid tomato;
+}
+.grid-layout-container{
+    display: grid;
+    /* grid-template-columns: 100px 100px 300px; */
+    /* grid-template-columns: repeat(2,80px) 150px; */
+    /* grid-template-columns: repeat(5,1fr); */
+    /* grid-template-columns: repeat(6 ,1fr) 2fr; */
+    /* grid-template-columns: 80px 120px 180px; */
+    grid-template-columns: 100px auto 150px;
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}

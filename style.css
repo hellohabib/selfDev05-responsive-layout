@@ -142,3 +142,29 @@ nav a{
     background-color: antiquewhite;
     border: 0.5px solid salmon;
 }
+.media-food{
+    border: 1px solid tomato;
+    border-radius: 10px;
+    padding: 10px;
+}
+.media-food img{
+    width: 100%;;
+}
+.media-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+/* small device */
+@media screen and (max-width:576px){
+    .media-container{
+        grid-template-columns: repeat(1,1fr);
+    }   
+}
+/* medium device */
+@media screen and (min-width:578px) and (max-width:992px) {
+    .media-container{
+        grid-template-columns: repeat(2,1fr);
+    }  
+}
+

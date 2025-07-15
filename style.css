@@ -123,3 +123,22 @@ nav a{
     /* justify-content: space-between; */
     justify-content: space-evenly;
 }
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 3px;
+}
+.calender-date, .calender-day{
+    background-color: darkgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.3em;
+}
+.calender-day{
+    font-weight: bold;
+    background-color: antiquewhite;
+    border: 0.5px solid salmon;
+}
